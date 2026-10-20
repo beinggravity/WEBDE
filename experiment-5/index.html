@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Weather App | Abhishek Rana</title><link rel="stylesheet" href="style.css"></head><body>
+<main class="box"><h1>Weather App</h1><p class="sub">Live weather using the Fetch API (Open-Meteo, no API key needed)</p>
+<form id="form" class="search"><label for="city" class="sr">City name</label><input id="city" placeholder="Enter city name" autocomplete="off" required><button>Search</button></form>
+<p id="msg" role="status" aria-live="polite"></p><section id="out" hidden>
+<h2 id="place"></h2><div class="emoji" id="emoji" aria-hidden="true"></div><div class="temp" id="temp"></div><p id="desc"></p>
+<div class="grid"><div>Feels like<b id="feels"></b></div><div>Humidity<b id="hum"></b></div><div>Wind<b id="wind"></b></div><div>Pressure<b id="pres"></b></div></div></section></main>
+<script src="script.js"></script></body></html>
